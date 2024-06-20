@@ -10,9 +10,9 @@
 Download using pip via pypi.
 
 ```bash
-$ pip install 'package' --upgrade
+$ pip install gifconvert_basic_tomas --upgrade
   or
-$ pip install git+'repository'
+$ pip install git+https://github.com/tomasjoa21/gifconvert_basic_tomas.git
 ```
 (Mac/homebrew users may need to use ``pip3``)
 
