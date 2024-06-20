@@ -19,8 +19,8 @@ $ pip install git+https://github.com/tomasjoa21/gifconvert_basic_tomas.git
 
 ## Quick start
 ```python
- >>> from pngtogif.converter import GifConverter
- >>> c = GifConverter("your original images path", 'your gif output path', (320,240))
+ >>> from gifconvert_basic_tomas import GifConverter as gfc
+ >>> c = gfc("your original images path", 'your gif output path', (320,240))
  >>> c.convert_gif()
 ```
 
